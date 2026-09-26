@@ -52,7 +52,7 @@ Suggested batching, one implementer per batch, each followed by both reviews:
 1. Pull the branch and run `npm run dev`.
 2. Do the browser checks in Tasks 12 and 13, then Tasks 14 and 16 against the 99tt Cosmos references (the Bardou rush clip, light streaks, zoom burst, watercolor, collage).
 3. Do Task 15 on the iPad.
-4. Then write Plan 2 (live Convex document + share URL).
+4. Execute Plan 2 (`docs/superpowers/plans/2026-09-26-plan-2-live-document.md`, written 2026-09-26). It needs a Convex login for `npx convex dev`; its Task 9 two-browser check needs a real browser.
 
 ## Status
 
