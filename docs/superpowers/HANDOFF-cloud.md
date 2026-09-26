@@ -56,4 +56,10 @@ Suggested batching, one implementer per batch, each followed by both reviews:
 
 ## Status
 
-_(cloud session fills this in)_
+**2026-09-26 — cloud session done.** Branch `claude/clever-hypatia-9x4qbt` (the session's assigned branch, used instead of `feat/motion-canvas`).
+
+- Tasks 0–13 and 17 are committed, one commit per task. Code matches the plan verbatim. No GLSL or shader constants were changed.
+- `npm run typecheck`, `npm test` (8 files, 58 tests), `npm run lint` and `npm run build` are all clean. `npm run dev` serves `/` and `/studio` with HTTP 200.
+- Deviation: `@types/node` was bumped from `^20` to `^22`, because vitest 5 refuses `^20` as a peer dependency. The scaffold is Next 16.3 and React 19.2. `create-next-app` also added `AGENTS.md`/`CLAUDE.md`, and they're committed as-is.
+- Extra check (not in the plan): headless Chromium on SwiftShader WebGL2 compiled every shader program with no errors. A mouse stroke painted under the cursor. Layer 2 ran `rush` + `multiply` + `turn`, and pause/play, undo, image import and **Blend in** all worked with no console errors. This is not a substitute for the real-GPU visual checks.
+- Still to do locally: the browser checks in Tasks 12 and 13, then Tasks 14, 15 and 16.
