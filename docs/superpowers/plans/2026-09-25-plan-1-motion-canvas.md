@@ -17,7 +17,7 @@
 | Plan | Delivers | Status |
 | --- | --- | --- |
 | **1 — Motion canvas (this file)** | Paint, paste, place, blend in and animate layers locally at `/studio`. Tuned against the reference board. | Ready |
-| 2 — Live document | Convex schema + edit key, live strokes, snapshot bake, `/p/{id}` shared viewer. Replaces the local reducer with mutations of the same shape. | Written after Plan 1 ships (depends on Plan 1's `Painting`/`Layer`/`LayerSurface` interfaces) |
+| 2 — Live document | Convex schema + edit key, live strokes, snapshot bake, `/p/{id}` shared viewer. Replaces the local reducer with mutations of the same shape. | Ready: `2026-09-26-plan-2-live-document.md` |
 | 3 — Circle + agent | Circle hit-test and focus, extract-by-circle (Node action), shared tool surface (+ `set_blend`, `blend_in`), AI SDK chat, MCP stdio server, Playwright smoke | Written after Plan 2 |
 
 ## Reference looks → recipes
